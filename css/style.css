@@ -320,7 +320,7 @@ header .navbar .dropdown-menu a {
 }
 
 .bio {
-  padding: 15px 15px 27px 15px;
+  padding: 15px 15px 13px 15px;
   background: #fff;
   border: 1px solid #e6e6e6;
   font-weight: 400;
@@ -331,7 +331,6 @@ header .navbar .dropdown-menu a {
   -webkit-box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.4);
   box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.4);
   max-width: 100px;
-  margin-top: -4em;
   border-radius: 50%;
   position: relative;
   margin-bottom: 30px;
@@ -504,6 +503,7 @@ header .navbar .dropdown-menu a {
   margin-bottom: 30px;
   position: relative;
   text-decoration: none;
+    border: 1px solid #efefef;
 }
 
 .blog-entries .blog-entry:hover,
@@ -516,7 +516,6 @@ header .navbar .dropdown-menu a {
 
 .blog-entries .blog-entry .blog-content-body {
   padding: 20px;
-  border: 1px solid #efefef;
   border-top: none;
 }
 
@@ -1012,6 +1011,7 @@ textarea.form-control {
   padding: 2px 6px;
   color: gray;
   background: #f2f2f2;
+  text-decoration: none;
 }
 
 .tags li a:hover {
@@ -1544,6 +1544,7 @@ textarea.form-control {
 
 .post-entry-sidebar ul li a {
   display: table;
+  text-decoration: none;
 }
 
 .post-entry-sidebar ul li a img {
@@ -1561,7 +1562,7 @@ textarea.form-control {
 }
 
 .search-form-wrap {
-    margin-bottom: 45px;
+    /*margin-bottom: 45px;*/
     display: block;
 }
 
@@ -1644,6 +1645,7 @@ blockquote p {
 
 .site-footer a {
   color: #fff;
+  text-decoration: none;
 }
 
 .site-footer a:hover {
