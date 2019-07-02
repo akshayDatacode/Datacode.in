@@ -139,7 +139,7 @@ header .navbar .dropdown-menu .dropdown-item.active {
 
 header .navbar .dropdown-menu a {
   padding-top: 15px;
-  padding-bottom: 2px;
+  padding-bottom: 10px;
 }
 
 .absolute-toggle {
@@ -187,7 +187,7 @@ header .navbar .dropdown-menu a {
 
 .top-bar {
   background: #03A9F4;
-  padding: 10px 0;
+  padding: 10px 10px;
   width: 100%;
 }
 
@@ -239,6 +239,7 @@ header .navbar .dropdown-menu a {
   background-position: center center;
   padding: 30px 80px;
   position: relative;
+  margin-top:125px;
   margin-bottom: 30px;
   height: 300px;
 }
@@ -455,15 +456,15 @@ header .navbar .dropdown-menu a {
 }
 
 .site-section {
-  padding: 0;
+  padding: 10px;
 }
 
 .site-section.py-md {
-  padding: 3em 0;
+  padding: 50px 0;
 }
 
 .site-section.py-sm {
-  padding: 0em 0;
+  padding: 10px 0;
 }
 
 .img-bg {
@@ -484,7 +485,7 @@ header .navbar .dropdown-menu a {
 
 .section-cover,
 .section-cover .intro {
-  height: 500px;
+  height: 1000px;
 }
 
 .section-cover p {
@@ -520,7 +521,8 @@ header .navbar .dropdown-menu a {
 }
 
 .blog-entries .blog-entry img {
-  max-width: 100%;
+  width: 360px;
+  height:250px;
 }
 
 .blog-entries .blog-entry h2 {
