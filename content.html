@@ -40,33 +40,317 @@
           </div>
         </div>
 
+      </header>
+    </div>
+
+
+
 
       <section class="site-section pt-3">
-   <div class="container">  
-            <div class="col-12">
- 
-            </div>
-          </div>
-            <h1>TCS NQT C-MCQ </h1>
+
+        <div class="container">
+          <div class="row">
+          
+            
+         <!-- <h2 class="mb-4">TCS NQT C-MCQs</h2>-->
             <br>
+            <br>
+
+                </div>
+            </div>
+            <h2 class="mb-4">TCS NQT C-MCQs</h2>
+            <br>
+            
+
+
           <h3>Q1. What will be the output ? </h3><BR>
       <pre>
-            #include <stdio.h>
-           {
-              float f = 0.1;
-              if (f == 0.1)
-                  printf("YES\n");
-              else
-                  printf("NO\n");
-              return 0;
-           }
+  #include <stdio.h>
+  {
+    float f = 0.1;
+    if (f == 0.1)
+        printf("YES\n");
+    else
+        printf("NO\n");
+    return 0;
+  }
 </pre>
   <div class="dropdown">
   <button onclick="myFunction()" class="dropbtn">Check Answer : </button>
   <div id="myDropdown" class="dropdown-content">
-    <h3>No</h3>
+    <h3>Ans: No</h3>
   </div>
 </div>
+<br>
+<br>
+
+ <h3>Q2. What will be the output of the following C code? </h3><BR>
+      <pre>
+  #include <stdio.h> 
+    void main()
+ { 
+    int x = 0, y = 2, z = 3; 
+    int a = x & y | z; 
+    printf("%d", a);
+ }
+
+</pre>
+<h3>Options:</h3>
+<pre>
+a) 3 
+b) 0 
+c) 2 
+d) Run time error 
+</pre>
+ <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Check Answer : </button>
+  <div id="myDropdown" class="dropdown-content">
+    <h3>Ans: A</h3>
+  </div>
+</div>
+<br>
+<br>
+
+ <h3>Q3.What will be the output of the following C code?  </h3><BR>
+      <pre>
+ #include <stdio.h> 
+    void main()
+{ 
+    int a = 3; int b = ++a + a++ + --a; 
+    printf("Value of b is %d", b);
+} 
+
+</pre>
+<h3>Options</h3>
+<pre>
+a) Value of x is 12 
+b) Value of x is 13 
+c) Value of x is 10 
+d) Undefined behaviour.
+</pre>
+
+  <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Check Answer : </button>
+  <div id="myDropdown" class="dropdown-content">
+    <h3>Ans: D</h3>
+  </div>
+</div>
+<br>
+<br>
+
+ <h3>Q4.What will be the output of the following C code?  </h3><BR>
+      <pre>
+ #include <stdio.h> 
+   int main() 
+{ 
+   int a = 10; 
+   double=5.6; 
+   int c; 
+   c = a + b; 
+   printf("%d", c); 
+} 
+
+</pre>
+<h3>Options</h3>
+<pre>
+a) 15 
+b) 16 
+c) 15.6 
+d) 10 
+
+</pre>
+  <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Check Answer : </button>
+  <div id="myDropdown" class="dropdown-content">
+    <h3>Ans: A</h3>
+  </div>
+</div>
+<br>
+<br>
+
+ <h3>Q5. What will be the output ? </h3><BR>
+      <pre>
+ #include <stdio.h> 
+   int main() 
+{ 
+   int a = 10, b = 5, c = 5; 
+   int d; 
+   d = a == (b + c); 
+   printf("%d", d);
+ } 
+
+</pre>
+<h3>Options</h3>
+
+<pre>
+a) Syntax error
+b) 1
+c) 10 
+d) 5 
+
+
+</pre>
+  <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Check Answer : </button>
+  <div id="myDropdown" class="dropdown-content">
+    <h3>Ans: C</h3>
+  </div>
+</div>
+<br>
+<br>
+
+ <h3>Q6. What will be the output ? </h3><BR>
+      <pre>
+ #include <stdio.h> 
+   int main() 
+{ 
+   int i = 3; int l = i / -2; 
+   int k = i % -2; 
+   printf("%d %d\n", l, k); 
+   return 0;
+ } 
+
+</pre>
+<h3>Options</h3>
+
+<pre>
+a) Compile time error 
+b) -1 1 
+c) 1 -1
+d) Implementation defined 
+
+
+
+</pre>
+
+  <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Check Answer : </button>
+  <div id="myDropdown" class="dropdown-content">
+    <h3>Ans: B</h3>
+  </div>
+</div>
+<br>
+<br>
+
+ <h3>Q7. What will be the final value of x in the following C code? 
+ </h3><BR>
+      <pre>
+ #include <stdio.h> 
+   void main() 
+{ 
+   int x = 5 * 9 / 3 + 9; 
+}
+
+</pre>
+<h3>Options</h3>
+
+<pre>
+a) 3.75 
+b) Depends on compiler       
+c) 24 
+d) 3 
+
+  </pre>
+  <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Check Answer : </button>
+  <div id="myDropdown" class="dropdown-content">
+    <h3>Ans: C</h3>
+  </div>
+</div>
+<br>
+<br>
+
+ <h3>Q8. What will be the final value of d in the following C code? 
+</h3><BR>
+      <pre>
+ #include <stdio.h> 
+   int main() 
+{ 
+  int a = 10, b = 5, c = 5; 
+  int d; 
+  d = b + c == a; 
+  printf("%d", d); 
+} 
+
+</pre>
+<h3>Options</h3>
+
+<pre>
+a) Syntax error
+b) 1 
+c) 5 
+d) 10 
+
+
+  </pre>
+  <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Check Answer : </button>
+  <div id="myDropdown" class="dropdown-content">
+    <h3>Ans: B</h3>
+  </div>
+</div>
+<br>
+<br>
+
+ <h3>Q9. What will be the output ? </h3><BR>
+      <pre>
+ #include <stdio.h> 
+   void main() 
+{ 
+   float x =0.1;    
+   if (x == 0.1) 
+      printf(“Datacode"); 
+   else 
+      printf("Advanced C Classes"); 
+} 
+
+</pre>
+<h3>Options</h3>
+
+<pre>
+a) Advanced C Classes
+b) Datacode 
+c) Run time error 
+d) Compile time error 
+
+  </pre>
+  <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Check Answer : </button>
+  <div id="myDropdown" class="dropdown-content">
+    <h3>Ans : A</h3>
+  </div>
+</div>
+<br>
+<br>
+
+ <h3>Q10. What will be the output ? </h3><BR>
+      <pre>
+ #include <stdio.h> 
+   int main() 
+{ 
+   int a = 10, b = 10; 
+   If (a = 5) b--; 
+      printf("%d, %d", a, b--); 
+} 
+
+</pre>
+<h3>Options</h3>
+
+<pre>
+a) a = 10, b = 9
+b) a = 10, b = 8 
+c) a = 5, b = 9 
+d) a = 5, b = 8 
+
+  </pre>
+  <div class="dropdown">
+<button class="dropbtn">Check Answer: </button>
+<div class="dropdown-content">
+    <h3>Ans: B</h3>
+  </div>
+</div>
+
+
 </section>
 
 
