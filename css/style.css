@@ -203,7 +203,7 @@ a.nav-link.dropdown-toggle {
     color:#fff;
     line-height: 18px !important;
 } 
-<!--drop down 2-->
+<!--drop down 2
 .dropbtn {
     background-color: black;
     color: white;
@@ -235,3 +235,4 @@ a.nav-link.dropdown-toggle {
 .dropdown-content a:hover {background-color: white;}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: grey;}
+-->
