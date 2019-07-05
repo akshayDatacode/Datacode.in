@@ -45,10 +45,7 @@ div.city_select {
 div.city_select .custom-select {
 	border: none;
 }
-.header{
-    position:fixed;
-    background-color: blue;
-}
+
 
 .header_btn_wr {
         display: inline-block;
@@ -117,8 +114,9 @@ a.nav-link.dropdown-toggle {
   
 /*Banner*/ 
 .banner {
-	padding-top: 76px;
-	background-color: #007bff;
+	margin-top: 80px;
+
+	background-color: #30a9f4;
 	background-image: linear-gradient(to bottom, #007bff, #0087ff, #0092ff, #009cff, #00a6ff, #00a6ff, #00a6ff, #00a6ff, #009cff, #0092ff, #0087ff, #007bff);
 }
    
@@ -203,9 +201,9 @@ a.nav-link.dropdown-toggle {
     color:#fff;
     line-height: 18px !important;
 } 
-<!--drop down 2
+<!--drop down 2-->
 .dropbtn {
-    background-color: black;
+    background-color: #03a9f4;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -235,4 +233,13 @@ a.nav-link.dropdown-toggle {
 .dropdown-content a:hover {background-color: white;}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: grey;}
--->
+
+
+
+.fixed-top {
+    position: fixed;
+    background-color: #30a9f4;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;

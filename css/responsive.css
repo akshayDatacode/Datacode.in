@@ -34,7 +34,9 @@
     
     
     #main_header {
-	position: relative !important;
+	position: fixed !important;
+    background-color:#03a9f4;
+    color:#333;
     }
     
     .logo_wr {
@@ -45,7 +47,8 @@
         padding: 10px !important;
         display: block;
         text-align: left;
-        border-top: 1px solid #f2f2f2;
+        background-color: #fff;
+        border-top: 5px solid #03a9f4;
     }
     
     .header_mobile_control .navbar.navbar-expand-lg {
@@ -53,7 +56,7 @@
     }
 
     .header_mobile_control .navbar.navbar-expand-lg  #navbarNavDropdown{
-            background: #fff;
+            background: #03a9f4;
             padding: 0 0 50px 0;
     }
          
