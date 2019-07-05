@@ -218,7 +218,7 @@ a.nav-link.dropdown-toggle {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: lightgrey;
+    background-color: #cce6ff;
     min-width: 200px;
     z-index: 1;
 }
