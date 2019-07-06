@@ -230,9 +230,9 @@ a.nav-link.dropdown-toggle {
     display: block;
 }
  
-.dropdown-content a:hover {background-color: white;}
+.dropdown-content a:hover {background-color:  #80bfff;}
 .dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: grey;}
+.dropdown:hover .dropbtn {background-color:  #80bfff;}
 
 
 
