@@ -2509,6 +2509,7 @@ input[type="button"].btn-block {
   right: 0;
   left: auto; }
 
+ 
 .dropup .dropdown-menu {
   top: auto;
   bottom: 100%;
@@ -2612,9 +2613,9 @@ input[type="button"].btn-block {
   background-color: transparent;
   border: 0; }
   .dropdown-item:hover, .dropdown-item:focus {
-    color: #16181b;
+    color: #30a9f4;
     text-decoration: none;
-    background-color: #f8f9fa; }
+    background-color: #30a9f4; }
   .dropdown-item.active, .dropdown-item:active {
     color: #fff;
     text-decoration: none;
