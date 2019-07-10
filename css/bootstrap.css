@@ -2622,7 +2622,7 @@ input[type="button"].btn-block {
     background-color: #6610f2; }
   .dropdown-item.disabled, .dropdown-item:disabled {
     color: #6c757d;
-    background-color: transparent; }
+    background-color: #30a9f4; }
 
 .dropdown-menu.show {
   display: block; }
