@@ -44,46 +44,6 @@
 .btn:hover {
   background-color: RoyalBlue;
 }
-body{background:#1D1F20;}
-#ct{height:150px; width:370px;border:1px solid #f1c40f;margin: 100px auto;text-align:center;position:relative;color:#fff;padding:15px;}
-span{
-  background:#1D1F20;
-  color:#f1c40f;
-  padding:0 10px;
-  font-size:20px;
-  position:relative; 
-  top:-28px;
-}
-.corner{height:30px;
-  width:30px;
-  border-radius:50%;
-  border:1px solid #fff;
-  transform:rotate(-45deg);  
-  position:absolute;
-  background:#1D1F20;
-}
-
-#left_top{
-  top:-16px;
-  left:-16px;
-  border-color:transparent transparent #f1c40f transparent;
-}
-#right_top{
-  top:-16px;
-  right:-16px;
-  border-color:transparent transparent transparent #f1c40f;
-}
-#left_bottom{
-  bottom:-16px;
-  left:-16px;
-  border-color:transparent #f1c40f transparent transparent ;
-}
-#right_bottom{
-  bottom:-16px;
-  right:-16px;
-  border-color:#f1c40f transparent transparent transparent;
-}
-p{padding-top:13px;font-size:18px}
 </style>
 
 <body class="f_16_22">
@@ -101,9 +61,9 @@ p{padding-top:13px;font-size:18px}
                         <nav class="navbar navbar-expand-lg">
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
                             </button>
-                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item"> <a class="nav-link" href="index.html">Home</a>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown" style="margin-right:-1000px">
+                                <ul class="navbar-nav" >
+                                    <li class="nav-item" > <a class="nav-link" href="index.html">Home</a>
                                     </li>
                                     <li class="nav-item"> <a class="nav-link" href="index.html">About</a>
                                     </li>
@@ -124,7 +84,9 @@ p{padding-top:13px;font-size:18px}
                                             
                                         </div>
                                     </li>
-                                    <li class="nav-item"> <a class="nav-link" href="https://datacode25.blogspot.com/">Blog</a>
+                                  <li class="nav-item"> <a class="nav-link" href="article.html">Articles</a>
+                                    </li>
+                                         <li class="nav-item"> <a class="nav-link" href="events.html">Events</a>
                                     </li>
                                     <li class="nav-item"> <a class="nav-link" href="form.html">Sign in</a>
                                     </li>
@@ -143,7 +105,7 @@ p{padding-top:13px;font-size:18px}
 
     <div class="banner">
         <div class="text-center">
-           <a target="blank" href="http://shootpy.splashthat.com" class="d-block"> <img src="./images/pythoncover.jpeg"  alt="" class="img-fluid w-100" /> </a>
+           <a target="blank" href="#" class="d-block"> <img src="./images/articles.jpeg"  alt="" class="img-fluid w-100" /> </a>
         </div>   
     </div>
     <!-- Banner End -->
@@ -152,26 +114,52 @@ p{padding-top:13px;font-size:18px}
     <section class="section_common_80_50 bg-white">
         <div class="container">
                 <div class="row">
-                    <div class="col-12"><h2 class="heading_style m_b_30 text-left"><span class="bg-white">Getting Started in DataScience</span></h2></div>
+                    <div class="col-12"><h2 class="heading_style m_b_30 text-left"><span class="bg-white">Latest Posts</span></h2></div>
                     <div class="col-12 col-md-8 ">
                     <div class="row">
-               <div id="ct">
-  <div class="corner "id="left_top"></div>
-  <div class="corner" id="left_bottom"></div>
-  <div class="corner" id="right_top"></div>
-  <div class="corner" id="right_bottom"></div>
-  <span>Winston Churchill</span>
-  <blockquote>
-    <p><i>&ldquo;Success consists of going from failure to failure without loss of enthusiasm.&rdquo; </i></p>
-  </blockquote>
-</div>
 
 
-                       <p><div class="p2">There's no denying that 'data scientist' is a hot job title to have right now, and for good reason. It's a tremendously fun and challenging field to be in, and despite all of the often underserved hoopla that surrounds it, data scientists are doing some pretty amazing things. So it's no surprise that many people are clamoring to find out how to become data scientists. 
-We think that being a good data scientist just means knowing some programming languages and some algorithms. To be fair, there are many well-established algorithms with many great and increasingly user-friendly implementations in many programming languages. It's incredibly easy to estimate a linear or logistic regression.
-One of the primary things that separates a data scientist from someone just building models is the ability to think carefully about things like endogeneity, causal inference, and experimental and quasi-experimental design. Data scientists must understand and think about things like data generating processes and reason through how misspecifying them could influence or undermine the inferences they draw from their analyses.
-‘Math’ There is no getting around it. You simply must study math and statistics.If you have never taken calculus and can only take one math course right now, you should also have taken a basic multivariate calculus course if you want to read research papers that implement new algorithm, and some knowledge of linear regression..
-</div></p>
+                      <div class="col-12 col-md-6">
+                        <div class="card border-0 m_b_30 hover_scale_11 trans_02 box_shw2">
+                            <a target="blank" href="dsarticle.html"><img src="./images/ds.jpeg" style="height:250px"  class="card-img-top" alt="..."></a>
+                            <div class="card-body" style="background-color:  #bfbfbf">
+                             <a target="blank" href="dsarticle.html" class="card-text" style ="color:black" >Getting started in Data science</a>
+                            </div>
+                        </div>
+                    </div>
+
+                      <div class="col-12 col-md-6">
+                        <div class="card border-0 m_b_30 hover_scale_11 trans_02 box_shw2">
+                            <a target="blank" href="dbmspdf.html"><img src="./images/os.jpeg"  class="card-img-top" alt="..."></a>
+                            <div class="card-body" style="background-color:  #bfbfbf">
+                             <a target="blank" href="os.html" class="card-text" style ="color:black" >Tasks Performed by and operation system</a>
+                            </div>
+                        </div>
+                    </div>
+
+  
+
+                           <div class="col-12 col-md-6">
+                        <div class="card border-0 m_b_30 hover_scale_11 trans_02 box_shw2">
+                            <a target="blank" href="https://drive.google.com/file/d/1f73fLooZAJ2eLW2sO5sCTuLpzds6vizz/view?usp=drivesdk"><img src="./images/ml.jpeg"  class="card-img-top" alt="..."></a>
+                            <div class="card-body" style="background-color: #b3e6ff">
+                             <a target="blank" href="https://drive.google.com/uc?authuser=0&id=1f73fLooZAJ2eLW2sO5sCTuLpzds6vizz&export=download"    class="card-text" style ="color:black" >Facts about Machine Learning/</a>
+                            </div>
+                        </div>
+                    </div>
+
+                             <div class="col-12 col-md-6">
+                        <div class="card border-0 m_b_30 hover_scale_11 trans_02 box_shw2">
+                            <a target="blank" href="https://drive.google.com/file/d/1khqxPT2Lyqtif_NtqHG4EiK3CxZT0q12/view?usp=drivesdk"><img src="./images/crack.jpeg"  class="card-img-top" alt="..."></a>
+                            <div class="card-body" style="background-color:  #bfbfbf">
+                             <a target="blank" href="https://drive.google.com/uc?authuser=0&id=1khqxPT2Lyqtif_NtqHG4EiK3CxZT0q12&export=download"    class="card-text" style ="color:black" >Tips and Tricks for cracking Technical interview</a>
+                            </div>
+                        </div>
+                    </div>
+
+                         
+
+                   
                   
                 
                 
