@@ -8,7 +8,7 @@
     <meta description="Datacode is Technical Education Site for Programers and developers">
     <meta link="https://www.datacamp.com/home">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- required Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
@@ -44,6 +44,48 @@
 .btn:hover {
   background-color: RoyalBlue;
 }
+body{background:#1D1F20;}
+#ct{height:1018px; width:1018px;border:1px solid skyblue;margin: 100px auto;text-align:justify;position:relative;color:#333;padding:15px; margin-top:-30px;line-height: 2}
+span{
+  background:#1D1F20;
+  color:#f1c40f;
+  padding:0 10px;
+  font-size:20px;
+  position:relative; 
+  top:-28px;
+}
+.corner{height:30px;
+  width:30px;
+  border-radius:50%;
+  border:1px solid #fff;
+  transform:rotate(-45deg);  
+  position:absolute;
+  background:#1D1F20;
+}
+
+#left_top{
+  top:-16px;
+  left:-16px;
+  border-color:transparent transparent #f1c40f transparent;
+}
+#right_top{
+  top:-16px;
+  right:-16px;
+  border-color:transparent transparent transparent #f1c40f;
+}
+#left_bottom{
+  bottom:-16px;
+  left:-16px;
+  border-color:transparent #f1c40f transparent transparent ;
+}
+#right_bottom{
+  bottom:-16px;
+  right:-16px;
+  border-color:#f1c40f transparent transparent transparent;
+}
+p{padding-top:-20px;font-size:18px}
+
+
 </style>
 
 <body class="f_16_22">
@@ -52,7 +94,7 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="site_logo">
-                        <a class="d-block line_height_0" href="index.html"> <span class="logo_text p_t_10 text-white"><strong>DATA</strong>CODE</span> 
+                        <a class="d-block line_height_0" href="index.html"> <span class="logo_text p_t_10 text-white" style="margin-top:40px; background-color: black"><strong>DATA</strong>CODE</span> 
                         </a>
                     </div>
                 </div>
@@ -61,9 +103,9 @@
                         <nav class="navbar navbar-expand-lg">
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
                             </button>
-                            <div class="collapse navbar-collapse" id="navbarNavDropdown" style="margin-right:-80px">
-                                <ul class="navbar-nav" >
-                                   <li class="nav-item" > <a class="nav-link" href="index.html">Home</a>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item"> <a class="nav-link" href="index.html">Home</a>
                                     </li>
                                     <li class="nav-item"> <a class="nav-link" href="index.html">About</a>
                                     </li>
@@ -84,10 +126,7 @@
                                             
                                         </div>
                                     </li>
-                                  
-                                         <li class="nav-item"> <a class="nav-link" href="newarticle.html">Articles</a>
-                                    </li>
-                                         <li class="nav-item"> <a class="nav-link" href="events.html">Events</a>
+                                    <li class="nav-item"> <a class="nav-link" href="https://datacode25.blogspot.com/">Blog</a>
                                     </li>
                                     <li class="nav-item"> <a class="nav-link" href="form.html">Sign in</a>
                                     </li>
@@ -115,32 +154,24 @@
     <section class="section_common_80_50 bg-white">
         <div class="container">
                 <div class="row">
-                    <div class="col-12"><h2 class="heading_style m_b_30 text-left"><span class="bg-white">Latest Posts</span></h2></div>
+                    <div class="col-12"><h1 class="heading_style m_b_30 text-left" ><span class="bg-white" style="color:black; margin-left:50px; font-size: 40px"><strong>Getting Started in DataScience</strong></span></h1></div>
                     <div class="col-12 col-md-8 ">
                     <div class="row">
-
-
-                      <div class="col-12 col-md-6">
-                        <div class="card border-0 m_b_30 hover_scale_11 trans_02 box_shw2">
-                            <a target="blank" href="http://shootpy.splashthat.com"><img src="./images3/pythonworkshop.jpeg" style="height:250px"  class="card-img-top" alt="..."></a>
-                            <div class="card-body" style="background-color:  #bfbfbf">
-                             <a target="blank" href="dbmspdf.html" class="card-text" style ="color:black" >Python Workshop for Women</a>
-                            </div>
-                        </div>
-                    </div>
-
-                      <div class="col-12 col-md-6">
-                        <div class="card border-0 m_b_30 hover_scale_11 trans_02 box_shw2">
-                            <a target="blank" href="dbmspdf.html"><img src="./categories/Technical Interview/Dbms-Technical Interview/dbms1.jpeg"  class="card-img-top" alt="..."></a>
-                            <div class="card-body" style="background-color:  #bfbfbf">
-                             <a target="blank" href="dbmspdf.html" class="card-text" style ="color:black" >Dbms Interview Questions.</a>
-                            </div>
-                        </div>
-                    </div>
-
-  
-
-                           <div class="col-12 col-md-6">
+               <div id="ct">
+ <!-- <div class="corner "id="left_top"></div>
+  <div class="corner" id="left_bottom"></div>
+  <div class="corner" id="right_top"></div>
+  <div class="corner" id="right_bottom"></div>-->
+  <span></span>
+  <blockquote>
+    <p><strong>Statistics.</strong> The vast majority of datascientist job revolves around statistical inference. As mentioned above, linear regressions are incredibly simple to estimate, yet there are some core assumptions that, if not met, can render your results sketchy at best and completely invalid at worst. Training in statistics will teach you to know these assumptions, understand what happens when they're not met, and what to do about it. In fact, training in statistics usually takes the path of "here's some simple linear models" in a course or two. Then nearly every course following that tries to figure out how to estimate models that violate the assumptions of linear models, but in different ways: autocorrelation in time series data, non-independent observations due to time or spatial clustering, dependent variables that are counts with lots of zeros, and so on.
+      <br>
+    <strong>Experiments and causal inference.</strong> You should also be well-versed in thinking about research design. If you're going to be in charge of your company's split tests and experiments, you'll want to master this stuff. Judea Pearl's Causality is probably the most well-known and referenced work, but it's not for beginners. You could do really well for yourself by starting with a basic research methods textbook, especially from the social sciences as they're often concerned about doing experiments when you're not in a laboratory setting. Designing Social Inquiry, referred to by many as "KKV", is a really good starting point for some of this.
+    <br>
+<strong>Machine learning.</strong> Machine learning and statistics have significant overlap, but while statistics is often concerned with precise and unbiased estimates of parameters, machine learning is usually focused on making accurate predictions on unseen data. The barriers to entry in reading about machine learning are significantly higher than many other topics, as machine learning is an applied subfield of computer science. Since the math requirements for CS majors are often non-trivial, a working knowledge of multivariate calculus is often assumed. In fact, one of the fundamental estimation techniques used in many machine learning algorithms, stochastic gradient descent, assumes you know what a gradient is. <a href="ds3.html"> Read more....</a> 
+  </p></blockquote>
+</div>
+<div class="col-12 col-md-6">
                         <div class="card border-0 m_b_30 hover_scale_11 trans_02 box_shw2">
                             <a target="blank" href="https://drive.google.com/file/d/1f73fLooZAJ2eLW2sO5sCTuLpzds6vizz/view?usp=drivesdk"><img src="./categories/Technical Interview/Sql-Technical Interview/sql1.jpeg"  class="card-img-top" alt="..."></a>
                             <div class="card-body" style="background-color: #b3e6ff">
@@ -167,26 +198,9 @@
                         </div>
                     </div>
 
- <div class="col-12 col-md-6">
-                        <div class="card border-0 m_b_30 hover_scale_11 trans_02 box_shw2">
-                            <a target="blank" href="content1.html"><img src="./categories/mcq/C-Mcq/cmcq3.jpeg" 
-                               class="card-img-top" alt="..."></a>
-                            <div class="card-body" style="background-color:  #bfbfbf">
-                             <a target="blank" href="Content1.html"    class="card-text" style ="color:black" >C mcq's Questions</a>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="col-12 col-md-6">
-                        <div class="card border-0 m_b_30 hover_scale_11 trans_02 box_shw2">
-                            <a target="blank" href="codingquestionswithsolution.html" class="d-block"><img src="./categories/practice/c/cque.jpeg" class="card-img-top" alt="..."></a>
-                            <div class="card-body" style="background-color:   #b3e6ff">
-                             <a target="blank" href="codingquestionswithsolution.html"    class="card-text" style ="color:black" >C Coding Questions with solutions </a>
-                            </div>
-                        </div>
-                    </div>
-
-                  
+                    
+     
                 
                 
                    
