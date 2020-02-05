@@ -1,5 +1,6 @@
 
 
+
 /*Mobile Responsive*/ 
 @media all and (max-width: 500px) {
     
@@ -18,18 +19,19 @@
     }
     
     .navbar-toggler {
-            background: #fff;
-            border: 1px solid #e64a19;
-            padding: 4px;
+            background: #333;
+           
+            padding: 0px;
             position: absolute;
             top: -55px;
+            width:1px;
             right: 0px;
     }
     
     .navbar-toggler-icon {
         color: #fff;
         font-size: 20px;
-        padding: 6px 5px;
+        padding: 2px 1px;
     }
     
     
@@ -48,7 +50,7 @@
         display: block;
         text-align: left;
         background-color: #fff;
-        border-top: 5px solid #03a9f4;
+       
     }
     
     .header_mobile_control .navbar.navbar-expand-lg {
@@ -56,7 +58,7 @@
     }
 
     .header_mobile_control .navbar.navbar-expand-lg  #navbarNavDropdown{
-            background: #03a9f4;
+            background: #fff;
             padding: 0 0 50px 0;
     }
          
