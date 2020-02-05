@@ -1760,9 +1760,10 @@ h1 {
 		}
 
 	hr {
-		border: 0;
-		border-bottom: solid 1px;
-		margin: 2rem 0;
+		border: 1;
+		border-bottom: solid 3px;
+		margin:0rem 0;
+		border-color: skyblue;
 	}
 
 		hr.major {
